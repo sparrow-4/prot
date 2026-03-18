@@ -4,84 +4,84 @@ const defaultData = {
   hero: {
     firstName: "MUHAMMED",
     lastName: "THOYYIB",
-    role: "WEB DEVELOPER",
-    description: "Recent BCA graduate specializing in React and Tailwind CSS. Crafting modern, high-performance web applications and immersive user experiences.",
+    role: "REACT DEVELOPER",
+    description: "React Developer and BCA graduate with hands-on experience designing responsive, mobile-first web applications. Crafting modern full-stack solutions using React, Next.js, and Tailwind CSS.",
     cta: "Available for Work",
     button: "View Projects"
   },
   about: {
-    heading1: "I'm a proactive team player",
+    heading1: "I'm a proactive React Developer",
     heading2: "with strong problem-solving skills,",
     heading3: "eager to expand technical expertise",
     heading4: "in real-world web projects.",
-    desc1: "As a recent Bachelor of Computer Applications graduate, I've completed a six-month hands-on training program at KINFRA and Scantech focused on modern web development.",
-    desc2: "I'm highly skilled in frontend technologies like React and Tailwind CSS, while possessing foundational backend knowledge of Python, Django, and JavaScript. I enjoy transforming complex requirements into seamless, beautiful user interfaces."
+    desc1: "As a BCA graduate, I've completed a six-month intensive bootcamp at KINFRA & Scantech, focusing on modern web technologies like React.js, Next.js, and Node.js.",
+    desc2: "I have delivered 7+ independent projects including e-commerce, fintech, and school management platforms. I'm highly skilled in frontend technologies and API integrations, seeking to collaborate on impactful web applications."
   },
   skills: [
-    "React JS", "Next.js", "Tailwind CSS", "Python", 
-    "HTML5", "CSS3", "JavaScript", "Django",
-    "SQL", "MongoDB", "Bootstrap 5", "React-Redux"
+    "React.js", "Next.js", "Tailwind CSS", "JavaScript (ES6+)", 
+    "Node.js", "Django", "Prisma ORM", "SQL",
+    "MongoDB", "REST API", "Git", "React-Redux"
   ],
   projects: [
     {
       id: 1,
-      title: "E-Commerce Website",
-      category: "Online Shopping Platform",
+      title: "DSFX",
+      category: "Full-Stack E-commerce Store",
       image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000",
-      tech: ["React.js", "TailwindCSS", "API Integration"],
+      tech: ["React.js", "Node.js", "Tailwind CSS"],
       color: "#10b981",
-      demoLink: "https://scottin.dot",
-      githubLink: "https://github.com/sparrow-4"
+      demoLink: "https://dsfx.vercel.app",
+      githubLink: "https://github.com/sparrow-4/DSFX"
     },
     {
       id: 2,
-      title: "InoVest App",
-      category: "BCA Final Project - Investor Platform",
+      title: "Dreamy",
+      category: "Full-Stack Web App",
       image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=1000",
-      tech: ["Flutter", "UI/UX", "Mobile"],
+      tech: ["Next.js", "Prisma ORM", "Tailwind CSS"],
       color: "#a855f7",
-      demoLink: "#",
-      githubLink: "https://github.com/sparrow-4"
+      demoLink: "https://dreamy-olive.vercel.app",
+      githubLink: "https://github.com/sparrow-4/dreamy"
     },
     {
       id: 3,
-      title: "Sable",
-      category: "Digital Currency Web App",
+      title: "School Management System",
+      category: "Web-based Admin Panel",
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000",
-      tech: ["React.js", "TailwindCSS", "Animations"],
+      tech: ["React.js", "REST API", "Tailwind CSS"],
       color: "#3b82f6",
-      demoLink: "#",
-      githubLink: "https://github.com/sparrow-4/Sable"
+      demoLink: "https://school-management-beta-rose.vercel.app",
+      githubLink: "https://github.com/sparrow-4/school-manage"
     },
     {
       id: 4,
-      title: "Decoratio App",
-      category: "Interior Design Inspiration",
+      title: "Scottin.dot",
+      category: "E-Commerce Website",
       image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1000",
-      tech: ["React.js", "TailwindCSS"],
+      tech: ["React.js", "Axios", "Tailwind CSS"],
       color: "#f59e0b",
-      demoLink: "#",
-      githubLink: "https://github.com/sparrow-4/Decoratio-app"
+      demoLink: "https://scottin-dot-afnx.vercel.app",
+      githubLink: "https://github.com/sparrow-4/scottin.dot"
     }
   ],
   experience: [
     {
-      role: "Part-time Accountant",
-      company: "Accounting Firm",
-      period: "01/2023 - 10/2024",
-      description: "Recorded daily transactions and maintained ledgers accurately. Supported GST filing and assisted in internal audits. Collaborated with management to review monthly cash flow trends."
-    },
-    {
       role: "Web Development Training",
       company: "KINFRA & Scantech",
-      period: "Completed",
-      description: "Completed six months of structured training focusing on frontend and backend fundamentals. Built small-scale web applications and UI prototypes."
+      period: "6 months",
+      description: "Completed an intensive training program covering frontend and backend technologies including React.js, Node.js, and Python. Built and shipped 4+ hands-on projects."
     },
     {
       role: "Bachelor of Computer Applications",
       company: "PPTM Arts & Science College",
       period: "06/2022 - 05/2025",
       description: "Recent graduate with foundational knowledge in computer science, software engineering, and modern web application development."
+    },
+    {
+      role: "Part-time Accountant",
+      company: "Accounting Firm",
+      period: "01/2023 - 10/2024",
+      description: "Managed and recorded 50+ daily financial transactions with 100% ledger accuracy. Assisted in GST filings and internal audits, ensuring full compliance."
     }
   ],
   footer: {
