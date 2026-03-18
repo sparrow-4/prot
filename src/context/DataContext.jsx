@@ -98,12 +98,12 @@ const DataContext = createContext(null);
 
 export const DataProvider = ({ children }) => {
   const [data, setData] = useState(() => {
-    const saved = localStorage.getItem('portfolioData');
+    const saved = localStorage.getItem('portfolioData_v2');
     return saved ? JSON.parse(saved) : defaultData;
   });
 
   useEffect(() => {
-    localStorage.setItem('portfolioData', JSON.stringify(data));
+    localStorage.setItem('portfolioData_v2', JSON.stringify(data));
   }, [data]);
 
   const updateData = (section, newData) => {
@@ -115,7 +115,7 @@ export const DataProvider = ({ children }) => {
 
   const resetData = () => {
     setData(defaultData);
-    localStorage.removeItem('portfolioData');
+    localStorage.removeItem('portfolioData_v2');
   };
 
   return (
